@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elcontrato.mariazabay.com/sitemap.xml

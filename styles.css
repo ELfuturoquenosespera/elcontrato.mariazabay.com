@@ -93,3 +93,22 @@ footer .brand { color:var(--paper); }
 }
 @media(max-width:480px){h1{font-size:3.35rem}.story-grid{grid-template-columns:1fr}.story-grid article{min-height:140px}.phone{border-width:6px;border-radius:32px}.chat{min-height:390px}.actions{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.typing i{animation:none}}
+
+/* Bibliografía de María Zabay, integrada en el estilo de El Contrato */
+.other-books{background:#0e1313;border-top:1px solid var(--line)}
+.other-books h2{font-size:clamp(2.8rem,5vw,5.5rem);margin:.5rem 0 2rem;line-height:1.08}
+.other-books h2 em{color:var(--gold);font-weight:400}
+.other-books .book-shelf{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:1rem 2px 2rem;scrollbar-color:var(--gold) #182020}
+.other-books .shelf-book{flex:0 0 clamp(158px,15vw,205px);scroll-snap-align:start;min-width:0}
+.other-books .shelf-cover{height:275px;display:flex;align-items:center;justify-content:center;padding:12px;border:1px solid var(--line);background:#161b1a;transition:border-color .2s ease,transform .2s ease}
+.other-books .shelf-book img{display:block;max-height:100%;max-width:100%;object-fit:contain;box-shadow:0 10px 22px rgba(0,0,0,.24)}
+.other-books .shelf-book p{font-size:.78rem;font-weight:600;line-height:1.4;margin:13px 0 10px;color:#cbc8bf}
+.other-books .shelf-link{display:block;color:inherit;text-decoration:none}
+.other-books .shelf-link:hover .shelf-cover{border-color:var(--gold);transform:translateY(-3px)}
+.other-books .shelf-link:hover p{color:var(--gold)}
+.other-books .shelf-link:focus-visible{outline:2px solid var(--gold);outline-offset:5px}
+@media(max-width:800px){.other-books .shelf-cover{height:235px}.other-books .shelf-book{flex-basis:155px}}
+@media(prefers-reduced-motion:reduce){.other-books .shelf-cover{transition:none}}
+
+/* Pie legal añadido sin modificar las columnas originales */
+footer > .mz-footer-legal{grid-column:1 / -1;justify-self:center;margin-top:24px}
