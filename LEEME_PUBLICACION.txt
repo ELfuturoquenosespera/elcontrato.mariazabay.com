@@ -1,0 +1,11 @@
+EL CONTRATO — WEB PREPARADA PARA PUBLICACIÓN
+19 DE NOVIEMBRE DE 2026
+
+1. Subir SOLO el contenido de este RAR, en la RAÍZ del repositorio de GitHub Pages. index.html debe quedar en la raíz (no dentro de una carpeta adicional).
+2. Dominio incluido en CNAME: elcontrato.mariazabay.com. Confirma que Settings > Pages mantenga ese dominio y HTTPS.
+3. Google Analytics 4: G-8SFV2TFR2V, en assets/site-consent.js. El código de GA4 se carga únicamente tras aceptar las cookies analíticas.
+4. La imagen Open Graph de 1200 x 630, los metadatos SEO, favicon SVG/PNG, icono para móviles, canonicals y datos estructurados están configurados.
+5. La galería mantiene los demás títulos en su orden previo. El contrato aparece en último lugar. Los títulos con web propia enlazan a su subdominio.
+6. Se incorporaron las páginas de privacidad, cookies y aviso legal conforme al modelo de las otras webs. Son textos orientativos: revisar identificación de la persona titular y requisitos legales antes de publicar.
+7. Se excluyeron copias de respaldo que no forman parte de la web pública para evitar duplicaciones (archivo RAR anidado u HTML monolítico de vista previa). Los archivos del sitio real se conservan.
+8. Una vez publicada, comprueba recepción de visitas con consentimiento en Analytics y visualización de imágenes en WhatsApp/LinkedIn (pueden mostrar datos cacheados). Los archivos por sí solos no confirman la configuración en la cuenta de Google.
